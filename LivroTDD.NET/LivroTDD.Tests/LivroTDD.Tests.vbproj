@@ -80,6 +80,7 @@
     <Import Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Capitulo2\TestaMaiorEMenor.vb" />
     <Compile Include="UnitTest1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -115,6 +116,18 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Capitulo1\" />
+    <Folder Include="Capitulo3\" />
+    <Folder Include="Capitulo4\" />
+    <Folder Include="Capitulo5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LivroTDD.NET\LivroTDD.NET.vbproj">
+      <Project>{3fb83d71-6c61-4475-a552-241a86095d51}</Project>
+      <Name>LivroTDD.NET</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

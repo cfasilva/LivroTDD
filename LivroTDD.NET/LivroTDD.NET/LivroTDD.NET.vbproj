@@ -71,6 +71,7 @@
     <Compile Include="Capitulo2\CarrinhoDeCompras.vb" />
     <Compile Include="Capitulo2\MaiorEMenor.vb" />
     <Compile Include="Capitulo2\Produto.vb" />
+    <Compile Include="Capitulo3\ConversorDeNumeroRomano.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -110,7 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Capitulo1\" />
-    <Folder Include="Capitulo3\" />
     <Folder Include="Capitulo4\" />
     <Folder Include="Capitulo5\" />
   </ItemGroup>

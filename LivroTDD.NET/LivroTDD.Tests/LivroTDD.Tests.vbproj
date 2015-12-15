@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Capitulo2\TestaMaiorEMenor.vb" />
-    <Compile Include="UnitTest1.vb" />
+    <Compile Include="Capitulo3\ConversorDeNumeroRomanoTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -119,7 +119,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Capitulo1\" />
-    <Folder Include="Capitulo3\" />
     <Folder Include="Capitulo4\" />
     <Folder Include="Capitulo5\" />
   </ItemGroup>
